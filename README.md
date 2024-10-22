@@ -1,7 +1,7 @@
 
 # Video Chat App
 
-![Video Chat App]()
+![Video Chat App](./video-chat-app.png)
 
 A simple video chat application built with React, TypeScript, Vite, and the Jitsi SDK. This app allows users to join a video chat room using Jitsi’s open-source video conferencing platform.
 
@@ -43,7 +43,7 @@ Ensure you have the following installed:
    npm run dev
    ```
 
-5. Open the app in your browser at `http://localhost:3000`.
+5. Open the app in your browser at `http://127.0.0.1:5173`.
 
 ### Folder Structure
 
@@ -55,7 +55,7 @@ Ensure you have the following installed:
 │   │   └── VideoChat.tsx     # Jitsi video chat component
 │   ├── App.tsx               # Main application file
 │   ├── index.tsx             # Entry point for React
-│   ├── main.tsx              # Bootstrap React with Vite
+│   ├── main.tsx              # React with Vite
 │   └── index.css             # Global CSS, includes Tailwind
 ├── package.json              # Dependencies and scripts
 └── README.md                 # Project documentation
